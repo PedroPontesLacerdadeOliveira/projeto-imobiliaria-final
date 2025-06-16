@@ -1,0 +1,112 @@
+/*Estilização página sobre nós*/
+* {
+padding: 0;
+margin: 0;
+}
+
+ body {
+    font-family: Arial;
+    background-color: #EFDFCC;
+    scroll-behavior: smooth;
+ }
+
+ header {
+    background: #BA8E7A;
+    color: white;
+    padding: 50px ;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .banner {
+    background-image: url('img/photo-1554168848-228452c09d60.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+  
+  .bannerelemento {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    text-align: center;
+  }
+
+  
+ .bannerelemento h2 {
+     text-align: center;
+     font-style: italic;
+
+  }
+
+ .cards{
+display: inline;
+
+ }
+
+  .card {
+  margin: 20px 0;
+  width: auto;
+  background-color: #F5F2E4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: justify;
+  }
+  .card h1 {
+  font-size: 35px;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+  }
+
+  .card h2 {
+  font-size: 30px;
+  font-family: Arial;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+  .card p {
+    font-family: Helvetica;
+    font-size: 25px;
+   }
+   
+  .card ul.a {
+  margin: 20px 0;
+   list-style-type: circle;
+   font-family: Helvetica;
+   font-size: 25px;
+  }
+
+  footer {
+background-color:#BA8E7A ;
+padding: 20px;
+color: white;
+text-align: center;
+}

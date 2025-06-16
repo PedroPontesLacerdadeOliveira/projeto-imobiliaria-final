@@ -1,0 +1,144 @@
+/*Estilização página imóveis*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background-color: #EFDFCC;
+    scroll-behavior: smooth;
+  }
+ 
+  
+  header {
+    background: #BA8E7A;
+    color: white;
+    padding: 50px ;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .banner {
+    background-image: url('img/photo-1554168848-228452c09d60.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+  
+  .bannerelemento {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  
+  
+  .imoveis {
+    padding: 60px ;
+    background-color: #EBEBEB;
+   
+}
+  h2  {
+    text-align: center;
+    font-style: italic;
+  }
+   
+  h3  {
+    font-style:italic  ;
+    text-align: center;
+
+  }
+  
+  .cards {
+    display: inline;
+  flex-wrap: wrap;
+  gap: 200px; 
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+ input {
+font-family: Arial;
+width: 250px;
+height: 50px;
+background-color: #66796B;
+color: white;
+border-radius: 5px;
+margin: 20px 0;
+font-size: 24px;
+ }
+.card {
+margin: 10px;
+  width: auto;
+  background-color: #F5F2E4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card img {
+  width: 1000px;
+  height: auto;
+  border-radius: 5px;
+}
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 20px;
+  color: #333;
+  text-align:center;
+}
+img { 
+    width: 700px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container 
+{
+display: flex;
+height: auto;
+width: auto;
+border: 1px solid ;
+}
+.h1container{
+  text-align: center;
+  color: black;
+
+}
+footer {
+background:#BA8E7A ;
+padding: 20px;
+color: white;
+text-align: center;
+}
